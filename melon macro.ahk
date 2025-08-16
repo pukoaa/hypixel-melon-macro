@@ -1,7 +1,7 @@
 ﻿; ====================================================================
 ; Game Movement Automation Script
 ; Description: Toggles between W+A and W+D movement patterns
-; Author: AutoHotkey Script Generator
+; Author: pukoaa
 ; ====================================================================
 
 #NoEnv
@@ -320,4 +320,5 @@ ExitApp
 ; ====================================================================
 ; Show script info on startup
 ToolTip, Game Movement Script Loaded`nPress O to start/pause/resume`nMiddle Mouse for emergency stop, 100, 100
+
 SetTimer, RemoveTooltip, 4000
